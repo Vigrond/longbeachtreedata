@@ -1,4 +1,4 @@
-import trees from "/treedata/trees.json" with { type: "json" };
+import trees from "../treedata/trees.json" with { type: "json" };
 import { treePopup, vacantSitePopup } from "./popups.js";
 
 const map = initializeMap();
