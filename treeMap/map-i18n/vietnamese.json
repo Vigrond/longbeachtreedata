@@ -1,0 +1,58 @@
+{
+  "filter_pane": {
+    "title": "Kho cây cối của thành phố Long Beach",
+    "filters": {
+      "title": "Bộ lọc",
+      "species": {
+        "title": "Loài cây",
+        "jacaranda": "Jacaranda",
+        "chinese_elm": "Elm Trung Quốc",
+        "crape_myrtle": "Crape myrtle",
+        "brisbane_box": "Hộp Brisbane"
+      },
+      "date": {
+        "title": "Ngày Được Trồng",
+        "to": ""
+      },
+      "neighborhood": {
+        "title": "Khu vực lân cận",
+        "belmont_shore": "",
+        "naples": "",
+        "bixby_knolls": "",
+        "alamitos_beach": ""
+      },
+      "vacant_sites": {
+        "title": "Các trang web trống ",
+        "on": "on",
+        "off": "off"
+      }
+    },
+    "information": {
+      "title": "Thông tin",
+      "description": [],
+      "office_of_sustainability": "",
+      "conservation_corps": "",
+      "submit": "Đăng tải một cái cây"
+    },
+    "metrics": {
+      "title": "",
+      "total_trees": "Tổng số cây công cộng trong Long Beach",
+      "common_species": "Loài cây phổ biến nhất",
+      "avg_age": "Tuổi trung bình của cây",
+      "num_by_neighborhood": "Số Lượng Cây Bằng Khu vực lân cận"
+    }
+  },
+  "tree_popup": {
+    "species": "Loài cây",
+    "common_name": "Tên gọi chung",
+    "neighborhood": "Khu vực lân cận",
+    "street_address": "Địa chỉ đường phố",
+    "date_planted": "Ngày trồng",
+    "funded_by": "Được tài trợ bởi",
+    "planted_by": "Trồng bởi",
+    "grow_space": "Phát triển không gian",
+    "next_water_date": "Ngày tưới nước tiếp theo",
+    "report_issue": "Báo cáo vấn đề cây",
+    "click_to_report": "Bấm vào đây để báo cáo"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "filter_pane": {
+    "title": "Inventario de árboles de la Ciudad de Long Beach",
+    "filters": {
+      "title": "Filtrar",
+      "species": {
+        "title": "Especie Arbórea",
+        "jacaranda": "Jacaranda",
+        "chinese_elm": "Olmo chino",
+        "crape_myrtle": "Myrtle de crape",
+        "brisbane_box": "Caja de brisbane"
+      },
+      "date": {
+        "title": "Fecha plantada",
+        "to": "a"
+      },
+      "neighborhood": {
+        "title": "Vecindario/barrio",
+        "belmont_shore": "Belmont Shore",
+        "naples": "Barrio de Naples",
+        "bixby_knolls": "Bixby Knolls",
+        "alamitos_beach": "Alamitos Beach"
+      },
+      "vacant_sites": {
+        "title": "Sitios vacantes",
+        "on": "encendido",
+        "off": "apagado"
+      }
+    },
+    "information": {
+      "title": "Información",
+      "description": [
+        "Los datos que se muestran en este mapa son una colección de los árboles públicos y lotes vacantes proporcionada por la",
+        "y el",
+        ".",
+        "Este mapa no contiene los árboles no públicos, es decir, los árboles ubicados en propiedad privada. Si desea usted mostrar sus árboles personales en este mapa, o conocer los árboles públicos que no se muestran, ¡haga clic en lo siguiente para avisarnos de un árbol y agregarlo a nuestro mapa!"
+      ],
+      "office_of_sustainability": "Oficina de Sostenibilidad de la Ciudad de Long Beach",
+      "conservation_corps": "Cuerpo de Conservación de Long Beach",
+      "submit": "Agregar un árbol a nuestro base de datos/Infórmenos de un árbol"
+    },
+    "metrics": {
+      "title": "La métrica",
+      "total_trees": "Número total de árboles públicos en Long Beach",
+      "common_species": "Especies de árboles más comunes",
+      "avg_age": "Edad promedio de los árboles",
+      "num_by_neighborhood": "Cantidad de árboles por barrio"
+    }
+  },
+  "tree_popup": {
+    "species": "Especies",
+    "common_name": "Nombre común",
+    "neighborhood": "Vecindario/barrio",
+    "street_address": "Dirección",
+    "date_planted": "Fecha plantada",
+    "funded_by": "Fundado por",
+    "planted_by": "Plantado por",
+    "grow_space": "Espacio para crecer",
+    "next_water_date": "Siguiente fecha de riego",
+    "report_issue": "Informar un problema de árbol",
+    "click_to_report": "Haga clic aquí para informar"
+  }
+}

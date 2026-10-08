@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/i18next/dist/umd/i18next.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="map_page">
+    <div id="map"></div>
+    <div id="map_pane">
+      <div id="map_pane_title" class="heading"></div>
+      <div class="tabs" id="top_tabs">
+        <div id="filters_button" role="button" class="tab active_tab"></div>
+        <div id="information_button" role="button" class="tab"></div>
+      </div>
+      <div id="filters_panel" class="panel">
+        <div id="filter_neighborhood" class="title"></div>
+        <div class="options">
+          <select name="neighborhood" id="neighborhood_select">
+            <option id="neighborhood_all" value="all"></option>
+          </select>
+        </div>
+        <div id="filter_species" class="title"></div>
+        <div class="options">
+          <select name="species" id="species_select">
+            <option id="species_all" value="all"></option>
+          </select>
+        </div>
+        <div id="newly_planted" class="title"></div>
+        <div class="options">
+          <fieldset>
+            <input id="newly_planted_new" type="radio" id="new" value="new" name="newly_planted" checked />
+            <span id="new_label"></span>
+            <input id="newly_planted_all" type="radio" id="all" value="all" name="newly_planted" />
+            <span id="all_label"></span>
+          </fieldset>
+        </div>
+        <div id="private" class="title"></div>
+        <div class="options">
+          <fieldset>
+            <input id="private_show" type="radio" id="show" value="hide" name="private" />
+            <span id="private_show_label"></span>
+            <input id="private_hide" type="radio" id="hide" value="hide" name="private" checked />
+            <span id="private_hide_label"></span>
+          </fieldset>
+        </div>
+        <div id="vacant" class="title"></div>
+        <div class="options">
+          <fieldset>
+            <input id="vacant_show" type="radio" id="show" value="hide" name="vacant" />
+            <span id="vacant_show_label"></span>
+            <input id="vacant_hide" type="radio" id="hide" value="hide" name="vacant" checked />
+            <span id="vacant_hide_label"></span>
+          </fieldset>
+        </div>
+      </div>
+      <div id="info_panel" class="panel" style="display: none">
+
+        <div id="info_blurb"></div>
+        <button id="submit_button"></button>
+      </div>
+
+      <div class="tabs" id="bottom_tabs">
+        <div id="metrics_button" role="button" class="tab active_tab"></div>
+        <div id="benefits_button" role="button" class="tab"></div>
+      </div>
+      <div id="metrics_panel" class="panel"></div>
+      <div id="benefits_panel" class="panel" style="display: none"></div>
+    </div>
+  </div>
+  <script>
+
+
+  </script>
+  <script type="module" src="i18n.js"></script>
+  <script type="module" src="map.js"></script>
+  <script type="module" src="popups.js"></script>
+  <script type="module" src="panel.js"></script>
+
+</body>
+
+</html>

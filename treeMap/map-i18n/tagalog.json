@@ -1,0 +1,63 @@
+{
+  "filter_pane": {
+    "title": "Lungsod ng Long Beach Tree Inventory",
+    "filters": {
+      "title": "Filter",
+      "species": {
+        "title": "Mga species ng puno",
+        "jacaranda": "Jacaranda",
+        "chinese_elm": "Chinese Elm",
+        "crape_myrtle": "Crape Myrtle",
+        "brisbane_box": "Box ng Brisbane"
+      },
+      "date": {
+        "title": "Petsa na nakatanim",
+        "to": "sa"
+      },
+      "neighborhood": {
+        "title": "Kapitbahay",
+        "belmont_shore": "Belmont Shore",
+        "naples": "Naples",
+        "bixby_knolls": "Bixby Knolls",
+        "alamitos_beach": "Alamitos Beach"
+      },
+      "vacant_sites": {
+        "title": "Mga bakanteng site",
+        "on": "sa",
+        "off": "off"
+      }
+    },
+    "information": {
+      "title": "Impormasyon",
+      "description": [
+        "Ang data na ipinakita sa mapa na ito ay isang koleksyon ng mga pampublikong puno at bakanteng maraming ibinigay ng,",
+        "at ang",
+        ".",
+        "Ang mapa na ito ay hindi naglalaman ng isang hindi pampublikong mga puno, i.e.: Mga puno na matatagpuan sa personal na pag-aari. Kung nais mong ipakita ang iyong mga personal na puno sa mapa na ito, o alam ang anumang mga pampublikong puno na hindi ipinakita, i -click ang sumusunod upang magsumite ng isang puno!"
+      ],
+      "office_of_sustainability": "Lungsod ng Long Beach Office of Sustainability",
+      "conservation_corps": "Conservation Corps ng Long Beach",
+      "submit": "Magsumite ng isang puno"
+    },
+    "metrics": {
+      "title": "Metrics",
+      "total_trees": "Kabuuang bilang ng mga pampublikong puno sa buong Long Beach",
+      "common_species": "Karamihan sa mga karaniwang species ng puno",
+      "avg_age": "Average na edad ng mga puno",
+      "num_by_neighborhood": "Dami ng mga puno sa pamamagitan ng kapitbahay"
+    }
+  },
+  "tree_popup": {
+    "species": "Mga species",
+    "common_name": "Karaniwang pangalan",
+    "neighborhood": "Kapitbahay",
+    "street_address": "Address ng kalye",
+    "date_planted": "Petsa na nakatanim",
+    "funded_by": "Pinondohan ng",
+    "planted_by": "Nakatanim ng",
+    "grow_space": "Palakihin ang puwang",
+    "next_water_date": "Susunod na petsa ng pagtutubig",
+    "report_issue": "Mag -ulat ng isang isyu sa puno",
+    "click_to_report": "Mag -click dito upang mag -ulat"
+  }
+}

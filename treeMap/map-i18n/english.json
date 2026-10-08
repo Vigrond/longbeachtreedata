@@ -1,0 +1,93 @@
+{
+  "filter_pane": {
+    "title": "City of Long Beach Tree Inventory",
+    "filters": {
+      "title": "Filter",
+      "all": "All",
+      "species": {
+        "title": "Tree Species",
+        "jacaranda": "Jacaranda",
+        "chinese_elm": "Chinese Elm",
+        "crape_myrtle": "Crape Myrtle",
+        "brisbane_box": "Brisbane Box"
+      },
+      "date": {
+        "title": "Date Planted",
+        "to": "to"
+      },
+      "neighborhood": {
+        "title": "Neighborhood",
+        "belmont_shore": "Belmont Shore",
+        "naples": "Naples",
+        "bixby_knolls": "Bixby Knolls",
+        "alamitos_beach": "Alamitos Beach"
+      },
+      "vacant_sites": {
+        "title": "Show vacant sites",
+        "show": "Show",
+        "hide": "Hide"
+      },
+      "newly_planted": {
+        "title": "Show only newly planted trees",
+        "new": "Only new",
+        "all": "All trees"
+      },
+      "private_trees": {
+        "title": "Show private trees",
+        "show": "Show",
+        "hide": "Hide"
+      }
+    },
+    "information": {
+      "title": "Information",
+      "description": [
+        "The data shown on this map is a collection of public trees and vacant lots given by the",
+        "and the",
+        ".",
+        "This map does not contain all non-public trees, i.e.: trees located on personal property. If you would like to show your personal trees on this map, or know of any public trees not shown, click the following to submit a tree!"
+      ],
+      "office_of_sustainability": "City of Long Beach Office of Sustainability",
+      "conservation_corps": "Conservation Corps of Long Beach",
+      "submit": "Submit a tree"
+    },
+    "metrics": {
+      "title": "Metrics",
+      "total_trees": "Total number of public trees across Long Beach",
+      "common_species": "Most common tree species",
+      "common_count": "Most common tree species count",
+      "avg_age": "Average age of trees",
+      "num_by_neighborhood": "Quantity of trees by neighborhood"
+    },
+    "benefits": {
+      "title": "Benefits",
+      "total_benefits": "Total Benefits",
+      "pollution_removal": "Pollution Removal",
+      "carbon_storage": "Carbon Storage",
+      "carbon_sequestration": "Carbon Sequestration",
+      "avoided_runoff": "Avoided Runoff",
+      "oxygen_production": "Oxygen Production",
+      "replacement_value": "Replacement Value",
+      "per_year": "per year",
+      "tons_per_year": "tons per year",
+      "cu_ft_per_year": "cu. ft. per year"
+    }
+  },
+  "tree_popup": {
+    "public_tree": "Public Tree",
+    "private_tree": "Private Tree",
+    "vacant_site": "Vacant Site",
+    "species": "Species",
+    "common_name": "Common Name",
+    "neighborhood": "Neighborhood",
+    "street_address": "Street Address",
+    "date_planted": "Date Planted",
+    "funded_by": "Funded By",
+    "planted_by": "Planted By",
+    "grow_space": "Grow Space",
+    "next_water_date": "Next Watering Date",
+    "needs_help": "This tree has been reported as needing help.",
+    "report_issue": "Report a Tree Issue",
+    "click_to_report": "Click here to report",
+    "unknown": "unknown"
+  }
+}
