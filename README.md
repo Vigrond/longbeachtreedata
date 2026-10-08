@@ -8,11 +8,13 @@ The tree data contains 93134 trees in Long Beach.  It is unknown how up to date 
 
 Inspired by a reddit post:  https://old.reddit.com/r/longbeach/comments/1x0erc0/anyone_know_who_made_this_site_i_want_to_help/
 
-## Usage:
+## Usage / Demo:
 
 Go to https://vigrond.github.io/longbeachtreedata/treeMap/map.html
 
 Select "All Trees" to load tree data onto the map (might take a few seconds)
+
+This is using the original `jawg.io` 3rd party map service access token from `longbeachtreedata.org`.  It may or may not load map tiles correctly.  To get a working local demo with your own access token, see next section:
 
 ## Local setup
 
