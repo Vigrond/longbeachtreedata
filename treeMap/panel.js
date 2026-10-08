@@ -1,4 +1,4 @@
-import trees from "/treedata/trees.json" with { type: "json" };
+import trees from "../treedata/trees.json" with { type: "json" };
 
 const filtersTab = document.getElementById("filters_button");
 const filtersPanel = document.getElementById("filters_panel");
